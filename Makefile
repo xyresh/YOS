@@ -18,7 +18,7 @@ $(GRUB_CFG):
 	@echo "set timeout=0" > $@
 	@echo "set default=0" >> $@
 	@echo "" >> $@
-	@echo "menuentry \"My OS\" {" >> $@
+	@echo "menuentry \"YOS\" {" >> $@
 	@echo "    multiboot /boot/kernel.bin" >> $@
 	@echo "    boot" >> $@
 	@echo "}" >> $@
