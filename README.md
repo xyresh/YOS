@@ -16,7 +16,7 @@ our os has a shell with a few implemented commands, the shell itself needs work 
 mouse input is supported, however as of now it is of no use, will hopefully be usefull in the future.
 ## building  
 you will need the following dependencies to build:  
-`grub-mkrescue qemu-system-i386 nasm gcc`
+`grub-mkrescue qemu-system-i386 nasm gcc`  
 to build simply run:  
 `make`  
 and to run in qemu:  
