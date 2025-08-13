@@ -4,7 +4,7 @@ NASM = nasm
 GRUB_MKRESCUE = grub-mkrescue
 QEMU = qemu-system-i386
 
-ISO_FILE = my_os.iso
+ISO_FILE = YOS.iso
 KERNEL_ENTRY = src/kernel/entry.asm
 GRUB_CFG = iso/boot/grub/grub.cfg
 LINKER_SCRIPT = kernel.ld
