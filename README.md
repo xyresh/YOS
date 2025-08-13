@@ -18,8 +18,8 @@ mouse input is supported, however as of now it is of no use, will hopefully be u
 you will need the following dependencies to build:  
 `grub-mkrescue qemu-system-i386 nasm gcc`
 to build simply run:  
-`make`
-and to in qemu:  
+`make`  
+and to run in qemu:  
 `make run`  
 
   
